@@ -62,22 +62,22 @@
 
 // masala 4
 
-// users.sort((a, b) => a.username.localeCompare(b.username));
+users.sort((a, b) => a.username.localeCompare(b.username));
 
-// console.log(users);
+console.log(users);
 
 
 
 // masala  5
 
-// let number = prompt("Son kiriting:");
+let number = prompt("Son kiriting");
 
-// function reverseNumber(num) {
-//     let reversed = parseInt(num.toString().split('').reverse().join(''), 10);
-//     console.log("Teskari son:", reversed);
-// }
+function teskariRaqam(num) {
+    let teskari = parseInt(num.toString().split('').reverse().join(''));
+    console.log("Teskari son:", teskari);
+}
 
-// reverseNumber(number);
+teskariRaqam(number);
 
 
 
