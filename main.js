@@ -68,7 +68,7 @@
 
 
 
-// masala 5
+// masala  5
 
 // let number = prompt("Son kiriting:");
 
@@ -78,6 +78,7 @@
 // }
 
 // reverseNumber(number);
+
 
 
 
